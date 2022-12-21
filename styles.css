@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'EasternBrush';
+  src: url(Eastern\ Brush.ttf);
+}
+
+@font-face {
+  font-family: 'QuickSand';
+  src: url(Quicksand_Light.otf);
+}
+
+.mountains {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  height: 50%;
+  width: auto;
+}
+
+.left {
+  cursor: url("enter.png"), auto;
+  position: absolute;
+  transform: rotateY(180deg);
+  top: 250px;
+  left: 0px;
+  height: 35%;
+  width: auto;
+}
+
+.right {
+  cursor: url("enter.png"), auto;
+  position: absolute;
+  top: 250px;
+  right: 0px;
+  height: 40%;
+  width: auto;
+}
+
+.talking {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  height: 100%;
+  width: auto;
+}
+
+.peach {
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  height: 40%;
+  width: auto;
+}
+
+.pavillion {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  position: absolute;
+  top: 269px;
+  left: 70px;
+  height: 40%;
+  width: auto;
+}
+
+.textbox {
+  position: absolute;
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 100px;
+  border-image: url(border.png) 30 round;
+}
+
+.mapicon {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  height: 5%;
+  width: auto;
+}
+
+.unmute {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+}
+
+.mute {
+  position: absolute;
+  bottom: 25px;
+  right: 80px;
+}
+
+.fade-in-txt1 {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  left: 120px;
+  top: 70px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  width: 200px;
+}
+
+.fade-in-txt2 {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  right: 120px;
+  bottom: 150px;
+  background-color: #ffffff;
+  border: 2px solid black;
+  width: 200px;
+}
+
+.text {
+  font-family: QuickSand;
+  font-size: 90%;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
