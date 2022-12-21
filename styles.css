@@ -38,6 +38,7 @@
 }
 
 .talking {
+  cursor: url("enter.png"), auto;
   position: absolute;
   top: 50px;
   left: 150px;
